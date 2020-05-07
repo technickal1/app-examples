@@ -7,11 +7,11 @@ function run() {
   miro.initialize({
     extensionPoints: {
       toolbar: {
-        title: 'Template builder',
+        title: 'Airtable Cards',
         toolbarSvgIcon: icon24,
         librarySvgIcon: icon48,
         onClick: () => {
-          miro.board.ui.openLibrary('builder.html', {title: 'Template builder'})
+          miro.board.ui.openLibrary('builder.html', {title: 'Airtable Cards'})
         }
       }
     }
